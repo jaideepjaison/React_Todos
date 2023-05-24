@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       
      
-     <Header />
+     <Header title="MyAPP" searchbar={false}/>
      <Todos></Todos>
      <TodosElement></TodosElement>
      <Footer />

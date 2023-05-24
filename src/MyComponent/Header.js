@@ -1,10 +1,11 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 //higit
-export default function Header() {
+export default function Header(propes) {
   return (
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#jaison_branch">MyApp</a>
+    <a class="navbar-brand" href="#jaison_branch">{propes.title}</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -21,12 +22,17 @@ export default function Header() {
           <a class="nav-link">Contact Here</a>
         </li>
       </ul>
-      <form class="d-flex" role="search">
+
+      {propes.searchbar ?<form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search Here" aria-label="Search" />
         <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+      </form> : ""}
     </div>
   </div>
 </nav>
   )
+}
+Header.defaultProps={
+  title: "Test App"
+
 }
