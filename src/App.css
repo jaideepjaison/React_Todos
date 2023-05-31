@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+body{
+  background-color: rgb(80, 80, 80);
+}
+.middleText
+{
+  color: aliceblue;
+  text-align: center;
+  margin-top: 50%;
+  margin-bottom: 50%;
+}

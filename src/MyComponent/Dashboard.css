@@ -22,7 +22,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #f0f0f0;
+    background-color: rgb(80, 80, 80);
     /* Add any other styling for the navigation bar */
   }
 
@@ -40,4 +40,16 @@
 
   .nav-links li {
     margin: 0 10px;
+  }
+  .logo{
+    background-color: orange;
+  }
+  .form-control{
+    border: orange;
+  }
+  .nav-item:hover{
+    background-color: rgb(229, 255, 0);
+  }
+  .logoalign{
+    margin-left: 2%;
   }
