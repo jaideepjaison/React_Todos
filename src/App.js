@@ -1,19 +1,20 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Header  from "./MyComponent/Header";
-import Footer  from "./MyComponent/Footer";
-import Todos from './MyComponent/Todos';
-import TodosElement from './MyComponent/TodosElement';
+import DashboardBody from './MyComponent/DashboardBody';
+
 function App() {
   return (
+    <body>
     <div className="App">
       
      
-     <Header />
-     <Todos></Todos>
-     <TodosElement></TodosElement>
-     <Footer />
+     <Header title="DailySpendingCalculator" searchbar={false}/>
+     <DashboardBody />
+     <h1 className='middleText'>Daily Spending Calculator</h1>
+   
     </div>
+    </body>
   );
 }
 

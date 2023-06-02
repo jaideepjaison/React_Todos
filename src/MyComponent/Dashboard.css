@@ -1,0 +1,55 @@
+.container-fluid{
+    background-color: orange;
+    padding: 0px;
+    margin: 0px;
+    
+    margin-top: -1vh;
+}
+.Dashboardbody{
+    background-color: black;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.nav-item
+{
+    font-weight: bold;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(80, 80, 80);
+    /* Add any other styling for the navigation bar */
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    /* Add any other styling for the navigation links */
+  }
+
+  .logo img {
+    height: 40px;
+    /* Add any other styling for the logo */
+  }
+
+  .nav-links li {
+    margin: 0 10px;
+  }
+  .logo{
+    background-color: orange;
+  }
+  .form-control{
+    border: orange;
+  }
+  .nav-item:hover{
+    background-color: rgb(229, 255, 0);
+  }
+  .logoalign{
+    margin-left: 2%;
+  }
